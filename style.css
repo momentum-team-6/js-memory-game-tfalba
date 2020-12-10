@@ -1,0 +1,310 @@
+* {
+  margin: 0px;
+  display: flex;
+}
+title {
+  display: none;
+}
+body {
+  background-image: url("images/pexels-photomix-company-518245.jpg");
+  background: cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: .5em;
+  size: .5em;
+}
+.header-display {
+  display: block;
+  font-size: 40px;
+  font-size: 4rem;
+  margin-top: 1rem;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+#console-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+h2 {
+  text-align: center;
+}
+#game-display, #intro {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+.square {
+  display: flex;
+  flex-wrap: wrap;
+  width: 10rem;
+  height: 10rem;
+  background-color: rgb(63 81 181 / 100%);
+  border: solid .5rem rgb(32 34 44);
+  border-radius: 1.5rem;
+  margin: .5rem;
+  color: rgba(0, 0, 0, 0);
+  font-size: 30px;
+}
+.hideme {
+  display: none;
+}
+.animal0, #start4, #start10 {
+  background: url("images/animal/animal0.jpg") no-repeat center; 
+}
+.animal1, #start3 {
+  background: url("images/animal/animal1.jpg") no-repeat center;
+}
+.animal2 {
+  background: url("images/animal/animal2.jpg") no-repeat center;
+}
+.animal3 {
+  background: url("images/animal/animal3.jpg") no-repeat center;
+}
+.animal4 {
+  background: url("images/animal/animal4.jpg") no-repeat center;
+}
+.animal5 {
+  background: url("images/animal/animal5.jpg") no-repeat center;
+}
+.animal6, #start8, #start15 {
+  background: url("images/animal/animal6.jpg") no-repeat center;
+}
+.animal7 {
+  background: url("images/animal/animal7.jpg") no-repeat center;
+}
+.animal8 {
+  background: url("images/animal/animal8.jpg") no-repeat center; 
+}
+.animal9 {
+  background: url("images/animal/animal9.jpg") no-repeat center;
+}
+.animal10 {
+  background: url("images/animal/animal10.jpg") no-repeat center;
+}
+.animal11 {
+  background: url("images/animal/animal11.jpg") no-repeat center;
+}
+.animal12 {
+  background: url("images/animal/animal12.jpg") no-repeat center;
+}
+.animal13 {
+  background: url("images/animal/animal13.jpg") no-repeat center;
+}
+.animal14 {
+  background: url("images/animal/animal14.jpg") no-repeat center;
+}
+.animal15 {
+  background: url("images/animal/animal15.jpg") no-repeat center;
+}
+.animal16 {
+  background: url("images/animal/animal16.jpg") no-repeat center;
+}
+.animal17 {
+  background: url("images/animal/animal17.jpg") no-repeat center;
+}
+.animal18 {
+  background: url("images/animal/animal18.jpg") no-repeat center;
+}
+.animal19 {
+  background: url("images/animal/animal19.jpg") no-repeat center;
+}
+.flower0 {
+  background: url("images/flower/flower0.jpg") no-repeat center;
+}
+.flower1 {
+  background: url("images/flower/flower1.jpg") no-repeat center;
+}
+.flower2 {
+  background: url("images/flower/flower2.jpg") no-repeat center;
+}
+.flower3 {
+  background: url("images/flower/flower3.jpg") no-repeat center;
+}
+.flower4 {
+  background: url("images/flower/flower4.jpg") no-repeat center;
+}
+.flower5 {
+  background: url("images/flower/flower5.jpg") no-repeat center;
+}
+.flower6 {
+  background: url("images/flower/flower6.jpg") no-repeat center;
+}
+.flower7 {
+  background: url("images/flower/flower7.jpg") no-repeat center;
+}
+.flower8 {
+  background: url("images/flower/flower8.jpg") no-repeat center;
+}
+.flower9 {
+  background: url("images/flower/flower9.jpg") no-repeat center;
+}
+.flower10 {
+  background: url("images/flower/flower10.jpg") no-repeat center;
+}
+.flower11 {
+  background: url("images/flower/flower11.jpg") no-repeat center;
+}
+.flower12 {
+  background: url("images/flower/flower12.jpg") no-repeat center;
+}
+.flower13 {
+  background: url("images/flower/flower13.jpg") no-repeat center;
+}
+.flower14 {
+  background: url("images/flower/flower14.jpg") no-repeat center;
+}
+.flower15 {
+  background: url("images/flower/flower15.jpg") no-repeat center;
+}
+.flower16 {
+  background: url("images/flower/flower16.jpg") no-repeat center;
+}
+.flower17 {
+  background: url("images/flower/flower17.jpg") no-repeat center;
+}
+.flower18 {
+  background: url("images/flower/flower18.jpg") no-repeat center;
+}
+.flower19 {
+  background: url("images/flower/flower19.jpg") no-repeat center;
+}
+.person0 {
+  background: url("images/person/person0.jpg") no-repeat center; 
+}
+.person1 {
+  background: url("images/person/person1.jpg") no-repeat center;
+}
+.person2 {
+  background: url("images/person/person2.jpg") no-repeat center;
+}
+.person3 {
+  background: url("images/person/person3.jpg") no-repeat center;
+}
+.person4 {
+  background: url("images/person/person4.jpg") no-repeat center;
+}
+.person5 {
+  background: url("images/person/person5.jpg") no-repeat center;
+}
+.person6 {
+  background: url("images/person/person6.jpg") no-repeat center;
+}
+.person7 {
+  background: url("images/person/person7.jpg") no-repeat center;
+}
+.person8 {
+  background: url("images/person/person8.jpg") no-repeat center; 
+}
+.person9 {
+  background: url("images/person/person9.jpg") no-repeat center;
+}
+.person10 {
+  background: url("images/person/person10.jpg") no-repeat center;
+}
+.person11 {
+  background: url("images/person/person11.jpg") no-repeat center;
+}
+.person12 {
+  background: url("images/person/person12.jpg") no-repeat center;
+}
+.person13 {
+  background: url("images/person/person13.jpg") no-repeat center;
+}
+.person14 {
+  background: url("images/person/person14.jpg") no-repeat center;
+}
+.person15 {
+  background: url("images/person/person15.jpg") no-repeat center;
+}
+.person16 {
+  background: url("images/person/person16.jpg") no-repeat center;
+}
+.person17 {
+  background: url("images/person/person17.jpg") no-repeat center;
+}
+
+.animal0, .animal1, .animal2, .animal3, .animal4, .animal5, .animal6, .animal7,
+.animal8, .animal9, .animal10, .animal11, .animal12, .animal13, .animal14, .animal15,
+.animal16, .animal17, .animal18, .animal19, .flower0, .flower1, .flower2, .flower3,
+.flower4, .flower5, .flower6, .flower7, .flower8, .flower9, .flower10, .flower11, .flower12, .flower13, .flower14, .flower15, .flower16, .flower17, .flower18, .flower19, #flower-pic, #animal-pic, #person-pic,
+.person0, .person1, .person2, .person3, .person4, .person5, .person6, .person7, .person8, .person9, .person10, .person11, .person12, .person13,
+.person14, .person15, .person16, .person17, .person18, .person19 
+ {
+  background-size: cover;
+  width: 10rem;
+  height: 10rem;
+}
+#start4, #start10, #start3, #start8, #start15 {
+  background-size: cover;
+}
+#flower-pic {
+  background: url("images/flower/flower7.jpg") no-repeat center;
+}
+#animal-pic {
+  background: url("images/animal/animal2.jpg") no-repeat center;
+}
+
+#person-pic {
+  background: url("images/person/person2.jpg") no-repeat center;
+}
+
+#flower-pic, #animal-pic, #person-pic {
+  display: flex;
+  flex-wrap: wrap;
+  width: 7rem;
+  height: 7rem;
+  border: solid .4rem rgb(32 34 44);
+  border-radius: 1.3rem;
+  margin: .5rem;
+  color: rgba(0, 0, 0, 0);
+  font-size: 1rem;
+  /* margin-left: 120px; */
+  background-size: cover;
+}
+.button {
+  background-color: #9aa8b061;
+    border-radius: .6rem;
+    font-size: 1.5rem;
+    border: solid .3rem black;;
+    width: 7rem;
+    margin: .2rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  display: flex;
+  align-items: center;
+}
+#results-panel, #time-panel {
+  border: solid 8px black;
+  border-radius: 1rem;
+  font-size: 2.2rem;
+  width: 24rem;
+  height: 10rem;
+  align-content: flex-end;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  display:block;
+}
+#results, #timer {
+  font-size: 1.5rem;
+}
+.shimmer {
+  background-color: rgba(255, 255, 255, 0);
+  background-image: none;
+}
+#score {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
